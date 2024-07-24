@@ -1,0 +1,24 @@
+{
+    "server" : {
+        "port": 3500
+    },
+    "user": {
+        "minId": 10000,
+        "maxId": 100000
+    },
+    "security": {
+        "saltRounds": 10
+    },
+    "sequelizeDbUsers": {
+        "schemaUsers": "UsersClock",
+        "collectionUsers": "Users"
+    },
+    "seqDbConfig": {
+        "username": "root",
+        "password": "password",
+        "host": "localhost",
+        "port": 3306,
+        "dialect": "mysql",
+        "timestamps": false
+    }
+}
